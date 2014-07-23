@@ -6,11 +6,32 @@
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #eeeeee;
-  font-family: "Neuton";
+  font-family: "Ubuntu";
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  text-shadow: 2px 2px 2px #222222;
+}
+
+.reveal h2.ubuntu {
+  padding: 1rem;
+  color: #39CCCC;
+}
+
+.reveal h1.neuto,
+.reveal h2.neuto,
+.reveal h3.neuto {font-family: "Neuto";}
+
+.reveal h2.lobster {
+  font-family: "Lobster";
+  letter-spacing: .4rem;
+  padding: 1rem;
+  color: #FFDC00;
+}
+
+.reveal h2.open {font-family: "Open Sans";}
+
+.reveal h2.blue {color: #08c;}
 
 .reveal section img {
   border: none;
